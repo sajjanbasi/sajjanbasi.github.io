@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: teal;            
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>About The School</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>About the school</li>
+      <li>Departments</li>
+       <li>Extra Curricular</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>The School</h1>
+    <p> Enver Creek Secondary is home to the cougars! Grad Photo sessions will be held from October 10th through the 16th on Campus at Enver Creek. Book a session online at www.artona.com. beginning on August 1st.  Click on Learn More for more details.
+</p>
+    <p>Enver Creek Secondary School is a secondary school in Surrey, BC. It is located at 14505 84 Ave. </p>
+    <p>You can contact us directly at 604) 543-8149 or if you wanna contact the principal his email is  kilpatrick_m@surreyschools.ca and he will reply as soon as he can. ANNOUNCEMENTS:
+There are no current announcements to show. </p>
+  </div>
+</div>
+<img
+src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg"alt="HTML5 Icon" style="width:300px;height:200px;">
+<div class="footer">
+  <p>Follow us on instagram @envercreek</p>
+</div>
+
+</body>
+</html>
