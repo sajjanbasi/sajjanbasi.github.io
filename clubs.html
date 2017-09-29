@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: teal;            
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Departments</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>About the school</li>
+      <li>Departments</li>
+       <li>Extra Curricular</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Extra Curricular/After School Programs</h1>
+    <p>At Enver Creek, we have many extra curricular or after school programs and all of our students have every right to participate in these activities. We play basketball, soccer, volleyball, and many other sports.
+    <p> 
+Our students are invited to participate in a variety of activities throughout the school year. Some sports are school-based and some involve meets, games or play days with other Surrey schools at various locations.
+We appreciate the ongoing support from our coaches, teachers, volunteers and parents as well as all our drivers!</p>
+    <p>Enver Creek Secondary School is a secondary school in Surrey, BC. It is located at 14505 84 Ave. </p>
+    <p>You can contact us directly at 604) 543-8149 or if you wanna contact the principal his email is  kilpatrick_m@surreyschools.ca and he will reply as soon as he can. ANNOUNCEMENTS:
+There are no current announcements to show. </p>
+  </div>
+</div>
+<img
+src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg"alt="HTML5 Icon" style="width:300px;height:200px;">
+<div class="footer">
+  <p>Follow us on instagram @envercreek</p>
+</div>
+
+</body>
+</html>
