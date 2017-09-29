@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: teal;            
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Departments</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>About the school</li>
+      <li>Departments</li>
+       <li>Extra Curricular</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Info Tech</h1>
+<p> One of our most famous courses that students love to take is Info Tech. </p>
+    <p>Information and Communications Technology (ICT) have turned local communities into global communities. The kind of education that prepares students for this global community has technology as an integral part of its core. A technology-rich education enables students to bridge cultural and geographical distances around specific tasks, projects, information gathering and relationship building. It makes all subjects more meaningful to students and more adequately prepares them for the world in which they will live and work.
+</p>
+    <p>Enver Creek Secondary School is a secondary school in Surrey, BC. It is located at 14505 84 Ave. </p>
+    <p>You can contact us directly at 604) 543-8149 or if you wanna contact the principal his email is  kilpatrick_m@surreyschools.ca and he will reply as soon as he can. ANNOUNCEMENTS:
+There are no current announcements to show. </p>
+  </div>
+</div>
+<img
+src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg"alt="HTML5 Icon" style="width:300px;height:200px;">
+<div class="footer">
+  <p>Follow us on instagram @envercreek</p>
+</div>
+
+</body>
+</html>
