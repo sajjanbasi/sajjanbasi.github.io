@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Sajjan's Restaurant</title>
+  </head>
+
+  <body>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: red;
+        position: right;
+        width: 99%;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: grey;
+      }
+      
+      .header,
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 15px;
+      }
+      
+      h1 {
+        text-align: center;
+      }
+      
+      .content1 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid black;
+        padding: 3px;
+        margin: 3px;
+      }
+      
+      .content2 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid black;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content3 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid black;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content4 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid black;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content5 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid black;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content1,
+      .content2,
+      .content3,
+      .content4,
+      .content5 {
+        width: 99%;
+      }
+      .img1,
+      .img2,
+      .img3,
+      .img4,
+      .img5{
+      display: block;
+      margin: 0 auto;
+      }
+    </style>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Service">Service</a></li>
+        <li><a href="#Breakfast">Breakfast</a></li>
+        <li><a href="#Lunch">Lunch</a></li>
+        <li><a href="#Dinner">Dinner</a></li>
+        <li><a href="#Desserts">Desserts</a></li>
+      </ul>
+    </nav>
+    <div class="header">
+      <br />
+      <h1 id="Sajjan">Sajjan's Restaurant</h1><img class="img1" src="https://handluggageonly.co.uk/wp-content/uploads/2015/10/Paris-Restaurants-with-cool-views-2.jpg" width="300" height="200">
+    </div>
+
+    <div class="column content1" id="Service">
+      <h1>Our Service</h1>
+      <p>At Sajjan's Restaurant we will make sure you love our food and savour every bite! We always make sure our customer's are satisfied and if you aren't, then we will offer you a free refund!</p>  
+   <p>Every single one of our staff has been trained properly and have passed a special test and are qualified to make sure you are happy and satisfied! Beverages included, all beverages have free refills and are $3.99</p>
+      <img class="img1" src="http://img.freepik.com/free-photo/chef-presenting-something-over-white-background_1368-2825.jpg?size=338&ext=jpg" width="300" height="200">
+    </div>
+    <div class="column content2" id="Breakfast">
+      <h1>Breakfast</h1>
+      <p>For breakfast, we will serve you anything! We have so many options and you can choose any of them or make a custom order! Our menu consists of waffles, eggs, hashbrowns, bacon, sausages, pancakes, etc..</p>
+      <img class="img2" src="https://www.colourbox.com/preview/4697873-waffles-and-strawberry-isolated-on-white-background.jpg" width="300" height="170">
+      <table style="width:99%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Sausage</td>
+          <td>Juicy sausages!</td>
+          <td>$1.05 per sausage</td>
+      </tr>
+      <tr>
+          <td>Pancake</td>
+          <td>Thick and juicy pancakes (homemade)</td>
+          <td>$4.99 per pancake (4 pancakes per order)</td>
+      </tr>
+      <td>Bacon</td>
+          <td>Juicy, hot, fresh bacon!</td>
+          <td>$3.00 for 5 pieces of bacon!</td>
+      </tr>
+      <tr>
+          <td>Waffles</td>
+          <td>Fresh waffles made my Sajjan himself, whipping cream included! Maple syrup too!</td>
+          <td>$7.00 with maple syrup</td>
+      </tr>
+      <tr>
+      </tr>
+    </table>
+    </div>
+    <div class="column content3" id="Lunch">
+      <h1>Lunch</h1>
+      <p></p>
+      <img class="img3" src="https://thumbs.dreamstime.com/b/big-tasty-burger-fresh-delicious-hamburger-white-background-51763591.jpg" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Chicken Burger</td>
+          <td>Fresh crispy bun , lettuce leaves , pickles , onion and a small patty flavored with mayonnaise and ketchup </td>
+          <td>$5.99</td>
+      </tr>
+      <tr>
+          <td>Bacon Cheese Burger</td>
+          <td>Fresh crispy bun , lettuce leaves , pickles , onion and a small patty flavored with mayonnaise and ketchup with added bacon and cheese for extra crispy amazing flavour!</td>
+          <td>$5.00</td>
+      </tr>
+      <tr>
+          <td>Pizza</td>
+          <td>We have every single type of pizza in the world at our restuarant!</td>
+          <td>$4.00 per slice</td>
+      </tr>
+      <tr>
+          <td>Butter Chicken</td>
+          <td>Tasty homemade butter chicken, recipe by Sajjan himself!</td>
+          <td>$12.99</td>
+      </tr>
+    </table>
+    </div>
+	<div class="column content4" id="Dinner">
+      <h1>Dinner</h1>
+      <p></p>
+  <img  class="img4" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1502764.jpg" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Hot Spinach & Artichoke Dip</td>
+          <td>Creamy spinach, artichoke hearts and Italian cheeses, served with crispy tortilla chips and fresh cut salsa
+</td>
+          <td>$12.99</td>
+      </tr>
+      <tr>
+          <td>Asian Chicken Bites</td>
+          <td>Our classic chicken bites are given a tasty twist with crisp wontons, fresh cucumber and sweet chili sauce</td>
+          <td>$10.99</td>
+      </tr>
+      <tr>
+          <td>Supreme Fries</td>
+          <td>Waffle fries topped with petit filet and seasoned ground chuck, queso cheese, fresh cut salsa, crisp lettuce, scallions and cilantro crema</td>
+          <td>$5.95</td>
+      </tr>
+      <tr>
+          <td>Chili Popcorn Shrimp</td>
+          <td>Fried chili spiced shrimp served with buttered popcorn and a chili avocado aioli</td>
+          <td>$6.99</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
+    </div>
+    <div class="column content5" id="Desserts">
+      <h1>Tasty Dessert's!</h1>
+      <p></p>
+      <img class="img5" src="http://www.coldstonecreamery.com/assets/img/products/cupcakes/cupcakes-cakebatterdelux.jpg" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Any Flavour Cake</td>
+          <td>At our restaurant, we will serve you any flavour of cake just ask us and we will give it to you!</td>
+          <td>$23.99 per cake</td>
+      </tr>
+      <tr>
+          <td>Any Flavour Cupcake</td>
+          <td>At our restaurant, we will serve you any flavour of cupcakes just ask us and we will give it to you!</td>
+          <td>$5.99 per cupcake</td>
+      </tr>
+      <tr>
+          <td>Any Flavour Ice Cream</td>
+          <td>At our restaurant, we will serve you any flavour of ice cream just ask us and we will give it to you!</td>
+          <td>$2.99 per scoop</td>
+      </tr>
+    </table>
+    </div>
+	
+    <div class="footer">
+      <p><center>Low prices, amazing food! Monday-Friday 8am-7pm Saturday and Sunday 10am-6pm 9183 148 St, Surrey, BC V3R 3W7</center></p>
+    </div>
+    
+    </body>
+    
+    </html>
+    
